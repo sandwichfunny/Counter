@@ -20,9 +20,6 @@ if (!config.runsInWidget) {
   await widget.presentSmall()
 }
 
-Script.setWidget(widget)
-Script.complete()
-
 async function createWidget(items) {
   const list = new ListWidget()
   list.spacing = 10
